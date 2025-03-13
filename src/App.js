@@ -1,9 +1,6 @@
 import {
   createBrowserRouter,
-  Routes,
   Route,
-  Link,
-  NavLink,
   RouterProvider,
   createRoutesFromElements,
 } from "react-router-dom";
