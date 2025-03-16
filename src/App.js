@@ -18,6 +18,10 @@ import Faq from "./Pages/Help/Faq";
 import Contact from "./Pages/Help/Contact";
 import NotFound from "./Pages/Root/NotFound";
 
+// Auth Pages
+import Login from "./Pages/Auth/Login";
+import Signup from "./Pages/Auth/Signup";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
@@ -28,6 +32,9 @@ const router = createBrowserRouter(
         <Route path="faq" element={<Faq />} />
         <Route path="contact" element={<Contact />} />
       </Route>
+
+      <Route path="login" element={<Login />} />
+      <Route path="signup" element={<Signup />} />
 
       <Route path="*" element={<NotFound />} />
     </Route>
