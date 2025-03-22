@@ -45,9 +45,11 @@ const Login = () => {
                 />
               </button>
             </div>
+            {/* <Link to="/signup" className="text-blue-600 font-semibold"> */}
             <div className="text-left text-sm text-blue-500 cursor-pointer mb-3">
               Forgot your password?
             </div>
+            {/* </Link> */}
             <button className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
               Sign In
             </button>
